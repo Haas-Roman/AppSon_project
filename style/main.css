@@ -8,6 +8,14 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    background-color: #E5E5E5;;
+}
+
+header {
+    
+    background-image: url(../img/img-main.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .nav-logo {
@@ -65,3 +73,74 @@ body {
     border-color: #0758bb;
     background-color: #0758bb;
 }
+
+.header-main-content {
+    margin: 100px 0px 0px;
+    text-align: center;
+}
+
+.header-heading {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-text {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    margin: 0px;
+    padding: 30px 0px 0px;
+}
+
+.header-main-btns {
+    margin: 0px;
+    padding: 25px 0px 0px;
+}
+
+.btn-download {
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 20px;
+    color: #ffffff;
+    text-transform: none;
+}
+
+.btn-free-trial {
+    background-color: transparent;
+    color: #0F7BFF;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 20px;
+}
+
+.btn-free-trial:hover {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 20px;
+}
+
+.header-main-phones {
+    padding: 100px 0px 0px;
+}
+
+.phones {
+    padding: 100px 0px 0px;
+}
+
+
+
+
+
+
