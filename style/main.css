@@ -8,11 +8,11 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #E5E5E5;;
+    
 }
 
 header {
-    
+    background-color: #E5E5E5;
     background-image: url(../img/img-main.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -132,11 +132,42 @@ header {
 }
 
 .header-main-phones {
-    padding: 100px 0px 0px;
+    padding: 80px 0px 0px;
 }
 
 .phones {
     padding: 100px 0px 0px;
+}
+
+.advantages {
+    background-color: #F5FCFD;
+    margin-top: -415px;
+}
+
+.advantages-content {
+    text-align: center;
+}
+
+.advantages-box {
+    background-color: #ffffff;
+    width: 362px;
+    height: 290px;
+    margin: 165px 0 180px;
+    padding: 30px 20px;
+}
+
+#box_02 {
+    margin-top: 200px;
+}
+
+.advantages-box h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 22px;
+    color: #000000;
+    margin: 20px 0px;
+    padding: 0px 0px;
 }
 
 
