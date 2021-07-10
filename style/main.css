@@ -133,31 +133,35 @@ header {
 
 .header-main-phones {
     padding: 80px 0px 0px;
+    overflow: hidden;
+    height: 620px;
 }
 
 .phones {
     padding: 100px 0px 0px;
+    
 }
 
 .advantages {
     background-color: #F5FCFD;
-    margin-top: -415px;
+    padding: 165px 0px 185px;
 }
 
 .advantages-content {
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .advantages-box {
     background-color: #ffffff;
     width: 362px;
     height: 290px;
-    margin: 165px 0 180px;
     padding: 30px 20px;
 }
 
-#box_02 {
-    margin-top: 200px;
+.box_design {
+    margin-top: 50px;
 }
 
 .advantages-box h2 {
@@ -169,6 +173,33 @@ header {
     margin: 20px 0px;
     padding: 0px 0px;
 }
+/*********************FUNCTIONS********************/
+.functions {
+    background-color: #E5E5E5;
+}
+
+.figure {
+    position: absolute;
+    width: 389.71px;
+    height: 482.98px;
+    background: linear-gradient(147.4deg, #0F7BFF 7.27%, #0063DD 93.68%);
+    border-radius: 40px;
+    transform: matrix(0.77, -0.64, -0.64, -0.77, 0, 0);
+}
+
+.functions__img {
+    position: relative;
+}
+
+/*.figure_02 {
+    position: absolute;
+    width: 389.71px;
+    height: 482.98px;
+    background: linear-gradient(272deg, #0F7BFF 4.58%, #0063DD 78.9%);
+    border-radius: 40px;
+    transform: matrix(0.77, -0.64, -0.64, -0.77, 0, 0);
+}*/
+
 
 
 
