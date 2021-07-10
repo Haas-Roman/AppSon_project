@@ -232,11 +232,74 @@ header {
     transform: matrix(0.77, -0.64, -0.64, -0.77, 0, 0);
 }
 
+.content__touch-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*********************HOW WORK********************/
+
+.how_work {
+    background-color: #F5FCFD;
+}
+
+.how_work__text {
+    padding: 119px 0px 25px 0px;
+    text-align: center;
+}
+
+.how_work__text h1 {
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 40px;
+    color: #000000;
+}
 
 
+.how_work__text p {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 24px;
+    color: #000000;
+}
 
+.how_work__item {
+    text-align: center;
+    padding: 45px 0px 137px;
+}
 
+.create::before {
+    content: "";
+    border: 2px dashed #0F7BFF;
+    position: absolute;
+    width: 765px;
+    height: 0px;
+    left: 570px;
+    top: 3121px;
+    
+}
 
+.confirm {
+    position: relative;
+    z-index: 1;
+}
 
+.how_work__item h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 22px;
+    color: #000000;
+    padding: 30px 0px 20px 0px;
+}
 
+.how_work__item p {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 24px;
+    color: #000000;
+}
 
