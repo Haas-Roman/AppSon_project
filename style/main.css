@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #E5E5E5;
+    background-color: #ffffff;
     background-image: url(../img/img-main.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -199,7 +199,7 @@ header {
 
 /*********************FUNCTIONS********************/
 .functions {
-    background-color: #E5E5E5;
+    background-color: #ffffff;
 }
 
 .functions__content {
@@ -330,8 +330,16 @@ header {
 /*********************PRICING PLAN********************/
 
 .pricing_plan {
-    background-color: #E5E5E5;
-    ;
+    background-color: #ffffff;
+}
+
+.pricing_plan__container {
+    align-items: center;
+}
+
+.pricing_plan__content {
+    text-align: start;
+
 }
 
 .pricing_plan__content h2 {
@@ -368,4 +376,48 @@ header {
 .pricing_plan-box {
     background-color: #ffffff;
     text-align: center;
+}
+
+.pricing_plan-box h3 {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 22px;
+
+    color: #000000;
+
+    padding: 20px 0px 25px;
+}
+
+.pricing_plan-box p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 184%;
+
+    color: #000000;
+}
+
+.pricing_plan-box span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #0F7BFF;
+}
+
+span.doll {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+
+    color: #0F7BFF;
+}
+
+hr {
+    width: 50%;
+    border: 2px solid #E9F3F8;
+    margin: 0 25% 0 25%;
 }
