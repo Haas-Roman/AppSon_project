@@ -331,6 +331,7 @@ header {
 
 .pricing_plan {
     background-color: #ffffff;
+    padding: 130px 0px;
 }
 
 .pricing_plan__container {
@@ -376,6 +377,13 @@ header {
 .pricing_plan-box {
     background-color: #ffffff;
     text-align: center;
+    box-shadow: 0px 4px 20px rgba(0, 36, 80, 0.08);
+    border-radius: 5px;
+}
+
+.pricing_plan-box:hover {
+    border: 1px solid;
+    border-color: #0063DD;
 }
 
 .pricing_plan-box h3 {
@@ -420,4 +428,12 @@ hr {
     width: 50%;
     border: 2px solid #E9F3F8;
     margin: 0 25% 0 25%;
+}
+
+.pricing_plan-box img {
+    padding: 39px 0px 0px;
+}
+
+.pricing_plan-box button {
+   margin: 20px 0px 30px;
 }
