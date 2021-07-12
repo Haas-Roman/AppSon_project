@@ -18,6 +18,42 @@ header {
     background-size: 100%;
 }
 
+p {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 40px;
+    
+    color: #000000;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+
+    color: #000000;
+}
+
 /*********************BUTTONS**********************/
 
 .btn-color {
@@ -208,20 +244,7 @@ header {
     padding: 70px 0px;
 }
 
-.functions__content h1 {
-    font-size: 32px;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 40px;
-    color: #000000;
-}
-
 .functions__content p {
-    font-size: 16px;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 24px;
-    color: #000000;
     padding: 30px 0px 35px 0px;
 }
 
@@ -272,23 +295,6 @@ header {
     text-align: center;
 }
 
-.how_work__text h1 {
-    font-size: 32px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 40px;
-    color: #000000;
-}
-
-
-.how_work__text p {
-    font-size: 16px;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 24px;
-    color: #000000;
-}
-
 .how_work__item {
     text-align: center;
     padding: 45px 0px 137px;
@@ -311,20 +317,7 @@ header {
 }
 
 .how_work__item h2 {
-    font-size: 18px;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 22px;
-    color: #000000;
     padding: 30px 0px 20px 0px;
-}
-
-.how_work__item p {
-    font-size: 16px;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 24px;
-    color: #000000;
 }
 
 /*********************PRICING PLAN********************/
@@ -340,23 +333,9 @@ header {
 
 .pricing_plan__content {
     text-align: start;
-
-}
-
-.pricing_plan__content h2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 40px;
-    color: #000000;
 }
 
 .pricing_plan__content p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 150%;
-    color: #000000;
     padding: 30px 0px 40px 0px;
 }
 
@@ -387,23 +366,7 @@ header {
 }
 
 .pricing_plan-box h3 {
-    font-size: 18px;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 22px;
-
-    color: #000000;
-
     padding: 20px 0px 25px;
-}
-
-.pricing_plan-box p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 184%;
-
-    color: #000000;
 }
 
 .pricing_plan-box span {
@@ -452,11 +415,6 @@ hr {
 }
 
 .pagination-page__content h1 {
-    font-size: 32px;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 40px;
-    color: #000000;
     padding: 40px 0px;
 }
 
@@ -484,15 +442,6 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
-
-.pagination-page__text h3{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-
-
-    color: #000000;
 }
 
 .pagination-page__text span {
@@ -528,22 +477,10 @@ hr {
 }
 
 .news-page__heading h1 {
-    font-size: 32px;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 40px;
-    color: #000000;
-
     padding: 130px 0px 25px;
 }
 
 .news-page__heading p {
-    font-size: 16px;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 24px;
-    color: #000000;
-
     padding: 0px 0px 40px;
 }
 
@@ -565,14 +502,7 @@ hr {
     padding: 25px 0px;
 }
 
-.news-page__main-content p {
-    font-size: 16px;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 24px;
 
-    color: #000000;
-}
 
 a.link {
     font-size: 16px;
@@ -601,21 +531,70 @@ a.link {
     padding-left: 25px;
 }
 
-.news-box-text h2 {
-    font-size: 18px;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 27px;
+/*********************30 FREE DAYS********************/
 
-    color: #000000;
+.free_days {
+    background: #F5FCFD;
 }
 
-.news-box-text p {
+.free_days_content {
+    align-items: center;
+}
+
+.free_days_content h1 {
+    padding: 133px 0px 25px;
+}
+
+.free_days_content p {
+    padding: 0px 0px 113px 0px;
+}
+
+/*********************SUBSCRIBE PAGE********************/
+
+.subscribe-page {
+    background: #0F7BFF;
+}
+
+h1.subscribe-page_heading {
+    text-align: center;
+
+    color: #ffffff;
+    padding: 118px 0px 30px;
+}
+
+.window_mail {
+    width: 558px;
+    height: 50px;
+
+    background: #0063DD;
+    border-radius: 25px 0px 0px 25px;
+    border-style: solid;
+    border-color: #0063DD;
+    color: #ffffff;
+    outline: none;
+    padding-left: 20px;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+.subscribe-page__menu {
+    display: flex;
+
+    padding-bottom: 119px;
+}
+
+.subscribe_btn {
+    background: #ffffff;
+    border-radius: 0px 25px 25px 0px;
+    border-style: solid;
+    border-color: #ffffff;
+
+    text-transform: uppercase;
+    font-weight: 700;
     font-size: 16px;
-    font-weight: 300;
-    font-style: normal;
     line-height: 24px;
-
-    color: #000000;
+    
+    color: #0063DD;
 }
-
