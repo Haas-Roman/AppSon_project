@@ -18,89 +18,74 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <span class="nav-logo" href="#">AppSon</span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="ms-auto mb-2 mb-lg-0 nav-bar-content">
-            <li class="nav-item"><a class="nav-link active active-menu" aria-current="page" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link nav-menu" href="#">Features</a></li>
-            <li class="nav-item"><a class="nav-link nav-menu" href="#">Pricing</a></li>
-            <li class="nav-item"><a class="nav-link nav-menu" href="#">Pages</a></li>
-            <button class="btn-nav btn-color">sign up</button>
-          </ul>
+    <nav class="header__nav">
+      <div class="header__nav__container">
+        <div class="header__content">
+          <div class="header__nav__logo">
+            <span>AppSon</span>
+          </div>
+          <div class="header__nav__menu">
+            <ul class="header__nav__menu__items">
+              <li class="header__nav__menu__item"><a class="active-menu" href="#">Home</a></li>
+              <li class="header__nav__menu__item"><a href="#">Features</a></li>
+              <li class="header__nav__menu__item"><a href="#">Pricing</a></li>
+              <li class="header__nav__menu__item"><a href="#">Pages</a></li>
+            </ul>
+            <button class="btn-color">SIGN UP</button>
+          </div>
         </div>
       </div>
     </nav>
 
     <div class="container">
-      <div class="header-main-content">
-        <div class="row heading">
-          <!-- main text -->
-          <div class="col-lg-3"></div>
-          <div class="col-lg-6">
-            <h1 class="header-heading">Best Desktop App for You</h1>
-            <p class="header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      <div class="header_main_content">
+        <div class="row">
+          <div class="col-lg header_main_content__text">
+            <h1>Best Desktop App for You</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br>
               incididunt ut labore et dolore magna aliqua.
-              adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div class="col-lg-3"></div>
         </div>
-        <div class="row header-main-btns">
-          <!-- main buttons -->
-          <div class="col-lg-4"></div>
-          <div class="col-lg-2">
+        <div class="row">
+          <div class="col-lg"></div>
+          <div class="col-lg-4 header_main_content__btns">
             <button class="btn-color">Download</button>
-          </div>
-          <div class="col-lg-2">
             <button class="btn-nocolor">Free Trial</button>
           </div>
-          <div class="col-lg-4"></div>
+          <div class="col-lg"></div>
         </div>
-      </div>
-      <div class="row header-main-phones">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-3 phones">
-          <img src="img/phone_01.png" alt="img_01">
-        </div>
-        <div class="col-lg-4">
-          <img class="phonss" src="img/phone_02.png" alt="img_02">
-        </div>
-        <div class="col-lg-3 phones">
-          <img src="img/phone_03.png" alt="img_03">
-        </div>
-        <div class="col-lg-1"></div>
-      </div>
+        <div class="row">
+          <div class="col-lg header_main_content__img">
+            <img src="img/img_phones.png" alt="phones_img">
+          </div>
+        </div>  
   </header>
 
   <div class="advantages">
     <div class="container">
-      <div class="row advantages-content">
+      <div class="row advantages__content">
         <div class="col-lg">
-          <div class="advantages-box">
+          <div class="advantages__content__box">
             <img src="img/icon_analysis.png" alt="icon_01">
             <h2>Analysis</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit, sed do eiusmod tempor<br>incididunt ut labore et
               dolore</p>
           </div>
         </div>
         <div class="col-lg">
-          <div class="advantages-box box_design">
+          <div class="advantages__content__box">
             <img src="img/icon_design.png" alt="icon_02">
             <h2>Clean Design</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit, sed do eiusmod tempor<br>incididunt ut labore et
               dolore</p>
           </div>
         </div>
         <div class="col-lg">
-          <div class="advantages-box">
+          <div class="advantages__content__box">
             <img src="img/icon_massaging.png" alt="icon_03">
             <h2>Messaging</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit, sed do eiusmod tempor<br>incididunt ut labore et
               dolore</p>
           </div>
         </div>
@@ -110,38 +95,40 @@
 
   <div class="functions">
     <div class="container ">
-      <div class="row functions__content">
-        <div class="figure"></div>
-        <div class="col-lg-6">
-          <img class="functions__img" src="img/ez_mess.png" alt="img_mess">
+      <div class="row functions__messaging">
+        <div class="col-lg-6 functions__messaging__img">
+          <div class="figure">
+            <img src="img/ez_mess.png" alt="img_mess">
+          </div>
         </div>
         <div class="col-lg-1"></div>
-        <div class="col-lg-5 functions__content__mess">
+        <div class="col-lg-5 functions__messaging__text">
           <h1>Easy Messaging</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua.</p>
           <a class="link" href="#">Read More</a>
-          <div class="arrow-1">
+          <div class="arrow">
             <div></div>
           </div>
         </div>
       </div>
-      <div class="row functions__content">
-        <div class="col-lg-5 functions__content__touch">
+      <div class="row functions__toch">
+        <div class="col-lg-5 functions__toch__text">
           <h1>Keep In Touch</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua.</p>
           <a class="link" href="#">Read More</a>
-          <div class="arrow-1">
+          <div class="arrow">
             <div></div>
           </div>
         </div>
         <div class="col-lg-1"></div>
-        <div class="col-lg-6 content__touch-img">
-          <div class="figure_02"></div>
-          <img class="functions__img" src="img/touch.png" alt="img_touch">
+        <div class="col-lg-6 functions__toch__img">
+          <div class="figure_02">
+            <img src="img/touch.png" alt="img_touch">
+          </div>
         </div>
       </div>
     </div>
@@ -372,6 +359,31 @@
       </div>
     </div>
   </div>
+
+  <footer>
+    <div class="container">
+      <div class="row footer__content">
+        <div class="col-lg-4 footer__watermark">
+          <span>© 2018 Copyright, All Rights Reserved by AppSon</span>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5">
+          <div class="footer__content__items">
+            <div class="footer__items">
+              <a href="#">Terms & Condition </a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Help</a>
+            </div>
+            <div class="footer_social">
+              <a href="#"><img src="img/logo_fb.png" alt="fb_logo"></a>
+              <a href="#"><img src="img/logo_twitter.png" alt="twitter_logo"></a>
+              <a href="#"><img src="img/yt_logo.png" alt="yt_logo"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
